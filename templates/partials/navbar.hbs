@@ -1,0 +1,55 @@
+<!-- Back to top button -->
+    <div class="back-to-top"></div>
+
+
+
+    <header id="header" class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="nav" >
+            <div class="container border-white border-5 ">
+                <div><a class="navbar-brand pr-2 pl-2" href="/home">
+                    <img src="/assets/img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                    <span class="text-primary align-top">Alpha</span>-Healthcare</a> </div>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupport">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/aboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/appointment">Appointment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/doctors">Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <!-- .navbar-collapse -->
+            </div>
+            <!-- .container -->
+        </nav>
+        </header>
+    </header>
+    <script>
+        $(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 20) {
+	    $(header).css("background" , "blue");
+	  }
+
+	  else{
+		  $(header).css("background" , "#333");  	
+	  }
+  })
+})
+    </script>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>links}}
+</head>
+<body>
+{{>navbar}}
+
+<div class="page-banner overlay-dark bg-image" style="background-image: url(../assets/img/bg_image_1.jpg);">
+    <div class="banner-section">
+      <div class="container text-center wow fadeInUp">
+       
+        <h1 class="font-weight-normal display-1 ">Appointment</h1>
+      </div> <!-- .container -->
+    </div> <!-- .banner-section -->
+  </div> <!-- .page-banner -->
+
+
+
+
+    {{#if status}}
+  <div class="alert alert-success  display-4 text-center mb-0 wow fadeInLeft" role="alert">
+ {{ statusOfAppointment}}
+</div>
+{{/if}}
+
+
+<div class="page-section1 " style="background-color:#D5FFFF;">
+    <div class="container1 ">
+      <h1 class="text-center wow fadeInUp">Make an Appointment</h1>
+
+      <form class="main-form " id="form" onsubmit="return validateForm()" method="POST" action="/appointment" >
+        <div class="row mt-5 ">
+          <div class="col-12 col-sm-6 py-2 wow fadeInLeft">
+            <input type="text" class="form-control" placeholder="Full name"name ="name" required>
+          </div>
+
+          <div class="col-12 col-sm-6 py-2 wow fadeInRight">
+            <input type="text" class="form-control" placeholder="Phone Number.." id="phone" name ="Phone_number"required>
+          </div>
+
+          <div class="col-12 col-sm-6 py-2 wow fadeInLeft" data-wow-delay="300ms" >
+            <input type="date" class="form-control" id="userdate" name="date" required >
+          </div>
+          
+          <div class="col-12 col-sm-6 py-2 wow fadeInRight" >
+             <input type="time" class="form-control" id="time" value="09:00"name="time">
+          </div>
+          <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
+            <input type="text" class="form-control" placeholder="Email address.."name="email">
+          </div>
+          <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
+            <textarea name="message" id="message" class="form-control" rows="6" placeholder="Mention your purpose of visit"name="purpose"></textarea>
+          </div>
+        </div>
+         <p style="padding-left:2%; padding-top:2%">Visiting for first time?</p>
+    <div class="inline">
+      
+ <label for="Yes" style="padding-left: 3%;" ></label>
+      <input type="radio" id="html" name="Visiting for first time" value="Yes" >
+      Yes</label>
+     <label for="No">
+     <input type="radio" id="css" style="padding-left: 2%;" name="Visiting for first time" value="No" checked>
+       No</label><br>
+
+    </div>
+
+<div class="row-sm text-center">
+        <button type="submit" class="btn btn-primary mt-3 mb-3 wow zoomIn text-center" onsubmit ="validateForm();">Submit Request</button>
+     </div> 
+     </form>
+    </div>
+  </div> <!-- .page-section -->
+
+<script>
+  
+  
+ 
+</script>
+
+ 
+
+{{>footer}}
+</body>
+</html>
