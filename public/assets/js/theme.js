@@ -5,10 +5,13 @@ $(document).ready(function() {
             $('#nav').css("background", "#333");
 
         } else {
-            $('#nav').css("background", "transparent");
+            windowWidth = $(window).width();
+            if (windowWidth > 988) {
+                $('#nav').css("background", "transparent");
+            }
         }
-    })
-})
+    });
+});
 
 
 

@@ -1033,17 +1033,17 @@ a.text-dark:focus {
     color: white;
 }
 
-@media screen and (max-width: 990px) {
-    nav {
-        background-color: #333;
-        border-bottom: white;
-    }
-}
+@media screen and (max-width: 990px) {}
 
 @media (min-width: 576px) {
+    .text-responsive {
+        font-size: 4rem;
+    }
     .navbar-expand-sm .navbar-nav {
         margin-top: 0;
         border-top: none;
+        background-color: #333;
+        border-bottom: white;
     }
     .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 16px;
@@ -1055,9 +1055,14 @@ a.text-dark:focus {
 }
 
 @media (min-width: 768px) {
+    .text-responsive {
+        font-size: 4.5rem;
+    }
     .navbar-expand-md .navbar-nav {
         margin-top: 0;
         border-top: none;
+        background-color: #333;
+        border-bottom: white;
     }
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 16px;
@@ -1069,13 +1074,16 @@ a.text-dark:focus {
 }
 
 @media (min-width: 992px) {
+    .text-responsive {
+        font-size: 5rem;
+    }
     .navbar-expand-lg .navbar-nav {
         margin-top: 0;
         border-top: none;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 16px;
-        padding-left: 16px;
+        padding-right: 25px;
+        padding-left: 25px;
     }
     .navbar-expand-lg .navbar-nav {
         align-items: center;
@@ -1083,6 +1091,9 @@ a.text-dark:focus {
 }
 
 @media (min-width: 1200px) {
+    .text-responsive {
+        font-size: 5rem;
+    }
     .navbar-expand-xl .navbar-nav {
         margin-top: 0;
         border-top: none;
