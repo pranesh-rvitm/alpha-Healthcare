@@ -1018,7 +1018,6 @@ a.text-dark:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
     color: rgb(188, 231, 230);
-    border-bottom: 2px solid #00D9A5;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -1065,7 +1064,7 @@ a.text-dark:focus {
         border-bottom: white;
     }
     .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 16px;
+        g padding-right: 16px;
         padding-left: 16px;
     }
     .navbar-expand-md .navbar-nav {
@@ -1074,6 +1073,11 @@ a.text-dark:focus {
 }
 
 @media (min-width: 992px) {
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link:focus {
+        color: rgb(188, 231, 230);
+        border-bottom: 2px solid #00D9A5;
+    }
     .text-responsive {
         font-size: 5rem;
     }
@@ -1091,6 +1095,11 @@ a.text-dark:focus {
 }
 
 @media (min-width: 1200px) {
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link:focus {
+        color: rgb(188, 231, 230);
+        border-bottom: 2px solid #00D9A5;
+    }
     .text-responsive {
         font-size: 5rem;
     }
@@ -1306,7 +1315,7 @@ a.text-dark:focus {
 
 .page-banner {
     position: relative;
-    height: 300px;
+    height: 350px;
     z-index: 10;
 }
 
