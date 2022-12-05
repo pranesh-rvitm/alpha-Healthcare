@@ -5,7 +5,6 @@ $(window).on('load', function() { // makes sure the whole site is loaded
 })
 
 
-
 $(document).ready(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
