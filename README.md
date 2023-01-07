@@ -15,7 +15,7 @@ full stack web application built using HTML, CSS , Bootstrap, jquery for fronten
 * **FRONT END** : HTML, CSS, Bootstrap, Jquery
 * **BACK END** : node.js with express framework
 * **DATABSE** : MongoDB Atlas 
-* **HOSTING** : Render, a free cloud based hosting service provider 
+* **HOSTING** : Railways, a free cloud based hosting service provider 
 
 # Author
 Pranesh, CSE RVITM  
