@@ -4,7 +4,7 @@ full stack web application built using HTML, CSS , Bootstrap, jquery for fronten
 
 # Link to the website
 
-**Live demo :** [[https://alpha-healthcare.onrender.com/](https://alpha-healthcare.up.railway.app/)](https://alpha-healthcare.onrender.com/)
+**Live demo :** [https://alpha-healthcare.onrender.com/](https://alpha-healthcare.onrender.com/)
 # Website first look
 ![image](https://user-images.githubusercontent.com/117212598/206003748-1f04ca8e-67b2-4052-9c50-1809504e92f2.png)
 
